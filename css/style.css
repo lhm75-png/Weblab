@@ -11,3 +11,24 @@ h1{
 h2{
       font-family:fantasy;
 }
+
+ul{
+      list-style: square;
+}
+
+ul li{
+      color: blue;
+
+}
+
+li{
+      text-decoration: underline;
+}
+
+a{
+      text-decoration: none;
+}
+
+a:hover{
+      color: pink;
+}
