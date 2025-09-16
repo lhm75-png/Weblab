@@ -4,6 +4,30 @@ body{
       background-color: #999;
 }
 
+header{
+      background-color: red;
+      width: 960px
+      height: 100px
+      padding: 20px
+      
+}
+
+main{
+      background-color: blue;
+      width: 960px
+      
+}
+
+footer{
+      background-color: green;
+      width: 960px
+      height: 50px
+      
+      
+      
+      
+}
+
 h1{
       font-family: sans-serif;
 }
