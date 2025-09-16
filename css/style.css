@@ -35,4 +35,18 @@ a:hover{
 
 img{
       width: 300px;
+      /* height: 100px; */
+      /* use width or height when setting img sizes */
+}
+
+.imageGallery{
+      width: 200px
+}
+
+.green{
+      color: green;
+}
+
+.grayBackground{
+      background-color: rgba(30,30,30,0.5)
 }
