@@ -69,7 +69,7 @@ img {
 
 .imageGallery {
     width: 200px;
-    border: 2px solid #ddd;
+    border: 2px solid #de790e;
     padding: 5px;
 }
 
@@ -83,7 +83,7 @@ img {
     padding: 10px;
 }
 
-/* --- Navigation --- */
+
 nav ul {
     list-style: none;
     display: flex;
@@ -113,11 +113,3 @@ nav ul li a:hover {
     color: #ffc400;
 }
 
-
-.gallery-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
