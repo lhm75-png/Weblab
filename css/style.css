@@ -1,15 +1,14 @@
 body, h1, h2, h3, p, ul, ol, figure {
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 
 body {
-    /* FIX: Removed invalid 'comic' value */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 1.6;
     background-color: #ffc400;
     color: #333;
+    text-align: center;
 }
 
 header {
@@ -18,13 +17,8 @@ header {
     height: 100px;
     padding: 20px;
     border: 5px solid blueviolet;
-    margin-top: -7px;
-    /* FIX: Corrected typo 'margin-botton' to 'margin-bottom' */
-    margin-bottom: 10px;
-    margin-left: 200px;
-    /* FIX: Added a value, colon, and semicolon */
-    margin-right: 200px;
-    text-align: center;
+    margin: 0 auto; 
+    margin-bottom: 20px;
 }
 
 main {
@@ -35,41 +29,17 @@ main {
     background-color: #fff;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 10px 0 0 0;
-}
-
-nav a {
-    color: pink;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.1em;
-    padding: 8px 15px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-nav a:hover {
-    background-color: #003D6B;
-    color: #ffc400;
-}
-
 footer {
     background-color: red;
-    /* FIX: Added missing semicolon */
     width: 960px;
-    /* FIX: Added missing semicolon */
     height: 50px;
-    /* FIX: Added a value and semicolon */
     padding: 20px;
+    margin: 20px auto 0; 
 }
 
 h1 {
     font-family: sans-serif;
+    margin-bottom: 15px; 
 }
 
 h2 {
@@ -78,10 +48,6 @@ h2 {
 
 ul {
     list-style: square;
-}
-
-ul li {
-    color: blue;
 }
 
 li {
@@ -98,13 +64,13 @@ a:hover {
 
 img {
     width: 300px;
-    /* height: 100px; */
-    /* use width or height when setting img sizes */
 }
 
+
 .imageGallery {
-    /* FIX: Added missing semicolon */
     width: 200px;
+    border: 2px solid #ddd;
+    padding: 5px;
 }
 
 .green {
@@ -113,37 +79,45 @@ img {
 
 .greyBackground {
     background-color: rgba(30, 30, 30, 0.5);
+    color: white; 
+    padding: 10px;
 }
 
-nav {
-    /* FIX: Changed 'Width' to lowercase convention 'width' */
-    width: 400px;
-    margin: 0px auto;
-    border-bottom: black 1px solid;
-}
-
+/* --- Navigation --- */
 nav ul {
-    /* This rule was empty */
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 nav ul li {
-    list-style: none;
-    /* FIX: Added missing semicolon */
-    display: inline-block;
-    /* FIX: Added missing colon */
-    margin-left: 50px;
+    text-decoration: none; 
 }
 
 nav ul li a {
+    color: #003D6B;
     text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    /* FIX: Added missing semicolon */
-    font-size: 20px;
-    color: black;
-    /* FIX: Corrected 'font weight' to 'font-weight' and added semicolon */
-    font-weight: 900;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    
+    font-family: "Lato", sans-serif;
 }
 
 nav ul li a:hover {
-    background-color: aliceblue;
+    background-color: #003D6B;
+    color: #ffc400;
+}
+
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
 }
